@@ -1,0 +1,44 @@
+ /* 1: Centers the h1 element and its text, and adds width, padding, and border */
+h1 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* 2: Indents the first line of the two specified paragraphs */
+p.eat-drink, p.visit {
+    text-indent: 10%;
+}
+
+/* 3: Changes the text color of all elements with the visit class */
+.visit {
+    color: green;
+}
+
+/* 4: Styles the third restaurant in the restaurants list */
+.restaurants li:nth-child(3) {
+    text-transform: uppercase;
+    color: blue;
+}
+
+/* 5a: Sets the default link state to green */
+a:link {
+    color: green;
+}
+
+/* 5b: Sets the visited link state to blue */
+a:visited {
+    color: blue;
+}
+
+/* 5c: Sets the hover link state to a black background */
+a:hover {
+    background-color: black;
+}
+
+/* 5d: Sets the active link state to red */
+a:active {
+    color: red;
+}
